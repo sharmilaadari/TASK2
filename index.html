@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharmila -Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(4, 4, 40);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(28, 28, 144);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: lavender;
+
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        main hr{
+            border:0;
+            background-color: blueviolet;
+            height:1.2px;
+            margin:40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 2.2rem;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        #element {
+            color: blueviolet;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin:auto;
+            height:80vh;
+        }
+        .secondSection h1{
+            font-size: 1.9rem;
+
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin:56px 0;
+            display: flex;
+
+        }
+        .text-gray{
+            color: blueviolet;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            display: flex;
+            background-color: white;
+             margin: 0 100px;
+
+        }
+        .para{
+    font-size: large;
+color:white;
+text-align: left;
+        }
+     
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">SHARMILA PORTFOLIO</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact me</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi,My name is <span class="purple">sharmila</span>
+
+                <div>
+                    and I am a passionate
+
+                    <span id="element"></span>
+                </div>
+
+
+            </div>
+            <div class="rightSection">
+                <img src="port2.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray"></span>
+            <h1>What I am</h1>
+            <div class="box">
+            </div>
+            <div class="para">
+                <P>Hello, I'm Sharmila<br>
+                     A third-year student at Vignan College<br>
+                      A passionate tech enthusiast. 
+                      <br>
+                      I have a strong love for coding 
+                      <br>
+                      and am proficient in several programming languages, 
+                      <br>
+                      including C, Python, Java, and R.
+                      <br>
+                       My enthusiasm for technology has led me to
+                       <br>
+                        participate and win in various hackathons,
+                        <br> showcasing my skills and creativity.
+                        <br> I'm interested in machine learning
+                        <br> and continuously seek to 
+                        <br>expand my knowledge in this field.
+                        <br> In addition to my technical pursuits,
+                        <br>
+                     I am an artist who enjoys
+                     <br> creating illustrations for storybooks, 
+                     <br>blending my analytical and creative talents.</P>
+            </div>
+
+
+
+            
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Public speaker', 'Artist', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
